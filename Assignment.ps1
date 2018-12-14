@@ -16,8 +16,6 @@ You need to write a script that will:
 
 
 Get-VBRjob
-
-
 $job = Get-VBRjob -name "Backup Job Failed"
 Start-VBRjob -job $job -retrybackup -runasync
 
